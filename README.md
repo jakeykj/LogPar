@@ -1,6 +1,6 @@
 # LogPar: Logistic PARAFAC2 Factorization for Temporal Binary Data with Missing Values (KDD '20)
 
-This repo contains the PyTorch implementation of the paper `LogPar: Logistic PARAFAC2 Factorization for Temporal Binary Data with Missing Values` in KDD 2020.
+This repo contains the PyTorch implementation of the paper `LogPar: Logistic PARAFAC2 Factorization for Temporal Binary Data with Missing Values` in KDD 2020. [[paper]](https://dl.acm.org/doi/10.1145/3394486.3403213) [[poster presentation]](https://www.youtube.com/watch?v=X5Q4Ix0a7bs)
 
 
 ## Requirements
@@ -41,10 +41,16 @@ python train.py --data_path <DATA_PATH>
 If you find the paper or the implementation helpful, please cite the following paper:
 ```bib
 @inproceedings{yin2020logpar,
-  title={LogPar: Logistic PARAFAC2 Factorization for Temporal Binary Data with Missing Values},
-  author={Yin, Kejing and Afshar, Ardavan and Ho, Joyce C. and Cheung, William K. and Zhang, Chao and Sun, Jimeng },
-  booktitle={Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining},
-  year={2020}
+    author = {Yin, Kejing and Afshar, Ardavan and Ho, Joyce C. and Cheung, William K. and Zhang, Chao and Sun, Jimeng},
+    title = {LogPar: Logistic PARAFAC2 Factorization for Temporal Binary Data with Missing Values},
+    year = {2020},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    doi = {10.1145/3394486.3403213},
+    booktitle = {Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
+    pages = {1625–1635},
+    location = {Virtual Event, CA, USA},
+    series = {KDD '20}
 }
 ```
 
