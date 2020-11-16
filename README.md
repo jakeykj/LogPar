@@ -3,6 +3,29 @@
 This repo contains the PyTorch implementation of the paper `LogPar: Logistic PARAFAC2 Factorization for Temporal Binary Data with Missing Values` in KDD 2020. [[paper]](https://dl.acm.org/doi/10.1145/3394486.3403213) [[poster presentation]](https://www.youtube.com/watch?v=X5Q4Ix0a7bs)
 
 
+<p align="center"><img src="./model_overview.png" width="65%"></p>  
+
+**Overview**: LogPar assumes that the binary observations are generated from an underlying real-valued irregular tensor via a quantization process followed by random sampling. LogPar factorizes the underlying irregular tensors, instead of the binary observations, using the PARAFAC2 model.
+
+
+## Citation
+If you find the paper or the implementation helpful, please cite the following paper:
+```bib
+@inproceedings{yin2020logpar,
+    author = {Yin, Kejing and Afshar, Ardavan and Ho, Joyce C. and Cheung, William K. and Zhang, Chao and Sun, Jimeng},
+    title = {LogPar: Logistic PARAFAC2 Factorization for Temporal Binary Data with Missing Values},
+    year = {2020},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    doi = {10.1145/3394486.3403213},
+    booktitle = {Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
+    pages = {1625–1635},
+    location = {Virtual Event, CA, USA},
+    series = {KDD '20}
+}
+```
+
+
 ## Requirements
 The codes have been tested with the following packages:
 - Python 3.7
@@ -37,22 +60,7 @@ python train.py --data_path <DATA_PATH>
 ```
 
 
-## Citation
-If you find the paper or the implementation helpful, please cite the following paper:
-```bib
-@inproceedings{yin2020logpar,
-    author = {Yin, Kejing and Afshar, Ardavan and Ho, Joyce C. and Cheung, William K. and Zhang, Chao and Sun, Jimeng},
-    title = {LogPar: Logistic PARAFAC2 Factorization for Temporal Binary Data with Missing Values},
-    year = {2020},
-    publisher = {Association for Computing Machinery},
-    address = {New York, NY, USA},
-    doi = {10.1145/3394486.3403213},
-    booktitle = {Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
-    pages = {1625–1635},
-    location = {Virtual Event, CA, USA},
-    series = {KDD '20}
-}
-```
+
 
 ## Contact
 If you have any enquires, please contact Mr. Kejing Yin by email: 
