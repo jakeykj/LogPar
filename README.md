@@ -56,7 +56,7 @@ The data are organized in a Python List object and is saved using the Python bui
 
 If you use other datasets, you can organize the input data in the same format described above, and pass the `<DATA_PATH>` as a parameter to the training script:
 ```bash
-python train.py --data_path <DATA_PATH>
+python main.py --data_path <DATA_PATH>
 ```
 
 
