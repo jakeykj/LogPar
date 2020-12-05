@@ -3,7 +3,7 @@
 This repo contains the PyTorch implementation of the paper `LogPar: Logistic PARAFAC2 Factorization for Temporal Binary Data with Missing Values` in KDD 2020. [[paper]](https://dl.acm.org/doi/10.1145/3394486.3403213) [[poster presentation]](https://www.youtube.com/watch?v=X5Q4Ix0a7bs)
 
 
-<p align="center"><img src="./model_overview.png" width="65%"></p>  
+<p align="center"><img src="./model_overview.png" width="80%"></p>  
 
 **Overview**: LogPar assumes that the binary observations are generated from an underlying real-valued irregular tensor via a quantization process followed by random sampling. LogPar factorizes the underlying irregular tensors, instead of the binary observations, using the PARAFAC2 model.
 
